@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{ 
+    width: 100%; 
+    height: 300px; 
+    max-width: 600px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px; 
+    background-color: brown; 
+    background-image: url(https://st4.depositphotos.com/3367263/20877/v/600/depositphotos_208775854-stock-video-digitally-generated-video-education-symbols.jpg);
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+    position: relative; 
+} 
+
+.main{ 
+    width: 100%; 
+    max-width: 600px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px; 
+    background-color: rgb(248, 239, 239);
+}
+.tareaInput{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px auto 0px auto;
+}
+
+.lista{
+    width: 95%;
+    margin: 10px auto 0px auto;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 3px;
+    border-bottom: 1px rgb(231, 227, 227) solid;
+}
+
+.work{
+    width: 80%;
+}
+
+.done, .remove{
+    width: 5%;
+}
+
+#inputTarea{
+    width: 85%;
+    margin-right: 10px;
+    height: 35px;
+}
+
+#btnAdd{
+    width: 10%;
+}
+
+#fecha{
+    color: white;
+    font-size: 1.2em;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.workDone{
+    text-decoration: line-through;
+}
